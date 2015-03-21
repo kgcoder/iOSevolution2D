@@ -15,6 +15,8 @@
 		0143621C1ABDC45B007CC25E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0143621B1ABDC45B007CC25E /* Images.xcassets */; };
 		0143621F1ABDC45B007CC25E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0143621D1ABDC45B007CC25E /* LaunchScreen.xib */; };
 		0143622B1ABDC45B007CC25E /* iOSevolution2DTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0143622A1ABDC45B007CC25E /* iOSevolution2DTests.swift */; };
+		014362351ABDCCEB007CC25E /* redcircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 014362341ABDCCEB007CC25E /* redcircle.png */; };
+		014362371ABDCD0C007CC25E /* bluecircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 014362361ABDCD0C007CC25E /* bluecircle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		014362241ABDC45B007CC25E /* iOSevolution2DTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSevolution2DTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		014362291ABDC45B007CC25E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0143622A1ABDC45B007CC25E /* iOSevolution2DTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSevolution2DTests.swift; sourceTree = "<group>"; };
+		014362341ABDCCEB007CC25E /* redcircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redcircle.png; sourceTree = "<group>"; };
+		014362361ABDCD0C007CC25E /* bluecircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluecircle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 		0143620D1ABDC45B007CC25E /* iOSevolution2D */ = {
 			isa = PBXGroup;
 			children = (
+				014362381ABDCD1B007CC25E /* creature images */,
 				014362101ABDC45B007CC25E /* AppDelegate.swift */,
 				014362121ABDC45B007CC25E /* GameScene.sks */,
 				014362141ABDC45B007CC25E /* GameScene.swift */,
@@ -116,6 +121,15 @@
 				014362291ABDC45B007CC25E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		014362381ABDCD1B007CC25E /* creature images */ = {
+			isa = PBXGroup;
+			children = (
+				014362361ABDCD0C007CC25E /* bluecircle.png */,
+				014362341ABDCCEB007CC25E /* redcircle.png */,
+			);
+			name = "creature images";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,7 +215,9 @@
 				0143621F1ABDC45B007CC25E /* LaunchScreen.xib in Resources */,
 				0143621C1ABDC45B007CC25E /* Images.xcassets in Resources */,
 				014362131ABDC45B007CC25E /* GameScene.sks in Resources */,
+				014362371ABDCD0C007CC25E /* bluecircle.png in Resources */,
 				0143621A1ABDC45B007CC25E /* Main.storyboard in Resources */,
+				014362351ABDCCEB007CC25E /* redcircle.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +431,7 @@
 				014362301ABDC45B007CC25E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		014362311ABDC45B007CC25E /* Build configuration list for PBXNativeTarget "iOSevolution2DTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +440,7 @@
 				014362331ABDC45B007CC25E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
